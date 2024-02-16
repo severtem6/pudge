@@ -1,0 +1,244 @@
+*{
+    font-size: 18px;
+    font-family: "Reaver",serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-weight: 250;
+    font-size: 50px;
+}
+.favourite-game{
+    font-size: 30px;
+    font-weight: 150;
+    color: black;
+}
+.dota2{
+    display: flex;
+    justify-content: center;
+}
+.container-fluid{
+    background-color: black;
+    color: white;
+}
+.nav-link, .nav-link, .navbar-brand{
+    color: white;
+}
+.container-main{
+    background-image: url(../assets/img/backgrond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dota2-logo{
+    margin-bottom: 450px;
+}
+.gabe{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main{
+    background-color: gray;
+}
+.rootfooter{
+    text-align: center;
+    padding:25px 25px 25px 25px;
+}
+footer{
+    background-color: black;
+    padding: -10px;
+}
+.footer-text{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.footer-valve-logo{
+    max-width: 360px;
+    margin-bottom: -15px;
+}
+.footer-dota-logo{
+    max-width: 360px;
+    max-height: 30px;
+    padding-bottom: -20px;
+}
+.footer-text-main{
+    text-align: center;
+}
+.homepage_HomePage_owcSF .homepage_JoinBattleSection_Ifm8h{
+    width: 100%;
+    margin: 40px auto;
+    background-size: cover;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 150px;
+}  
+.pudgick{
+    display: flex;
+}
+.pudgick img{
+    width: 40%;
+}
+.pudge{
+    display: flex;
+}
+.pudge img{
+    margin-left: 75px;
+}
+.carousel{
+    margin-top: -350px;
+    text-align: center;
+  }
+.carousel-inner img{
+    width: 450px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+p, h3{
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.kontr-item{
+    margin-bottom: -20px;
+}
+.video{
+    margin-left: 15px;
+}
+.kontr-pick-pudge{
+    transition: 1s;
+    width: 40%;
+}
+.kontr-pick-pudge:hover{
+    transform: scale(1.2);
+}
+
+
+*, *:after, *:before { 
+	box-sizing: border-box; 
+}
+.clearfix:before, .clearfix:after { 
+	content: ''; 
+	display: table; 
+}
+.clearfix:after { 
+	clear: both; 
+}
+.hover-text-one {
+	overflow: hidden;
+	margin: 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.hover-text-one figure {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	background: #527c82;
+	text-align: center;
+	cursor: pointer;
+}
+.hover-text-one figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.8;
+}
+.hover-text-one figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.hover-text-one figure figcaption::before,
+.hover-text-one figure figcaption::after {
+	pointer-events: none;
+}
+.hover-text-one figure figcaption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hover-text-one figure h3 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+.hover-text-one figure h3 span {
+	font-weight: 800;
+}
+.hover-text-one figure h3,
+.hover-text-one figure p {
+	margin: 0;
+}
+.hover-text-one figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+figure.effect-text-three {
+	background: #527c82;
+}
+figure.effect-text-three img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: scale(1.1);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+    width: 450px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+figure.effect-text-three:hover img {
+	opacity: 0.4;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three figcaption {
+	text-align: left;
+}
+figure.effect-text-three h3 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+figure.effect-text-three h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+figure.effect-text-three:hover h3::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+figure.effect-text-three p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+figure.effect-text-three:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
